@@ -1,6 +1,5 @@
 console.log('hello ')
 
-let i=0;
 
 //constructor 
 function Book(name,author,type){
