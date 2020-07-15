@@ -51,7 +51,7 @@ Display.prototype.show=function(){        // display the contents when the page 
        
        let tableBody=document.getElementById('tableBody');
        let ulString='';
-      Array.from(obj).forEach(function (element,index) {
+      Array.from(obj).forEach(function (element) {
           
          ulString=` <tr>
         
@@ -75,7 +75,6 @@ Display.prototype.add=function(book){     //add each book to the screen
  
         
 
-i+=1;
     let tableBody=document.getElementById('tableBody');
     let uiString=` <tr>
     <td>${book.name}</td>
