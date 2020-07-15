@@ -78,7 +78,6 @@ Display.prototype.add=function(book){     //add each book to the screen
 i+=1;
     let tableBody=document.getElementById('tableBody');
     let uiString=` <tr>
-    <th scope="row">${i}</th>
     <td>${book.name}</td>
     <td>${book.author}</td>
     <td>${book.type}</td>
